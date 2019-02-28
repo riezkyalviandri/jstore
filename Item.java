@@ -1,64 +1,85 @@
 public class Item
 {
-    // instance variables - replace the example below with your own
     private int id;
     private String name;
     private int stock;
     private int price;
     private String category;
+    private Supplier supplier;
 
     
-    public static void Item()
+    public Item(int id, String name, int stock,int price, String category, Supplier supplier)
     {
-        
+        //constructor
+        this.id=id;
+        this.name=name;
+        this.stock=stock;
+        this.price=price;
+        this.category=category;
+        this.supplier=supplier;
     }
     
-    public static int getId()
+    public int getId()
     {
-        return 0;
+        return id;
     }
     
-    public static String getName()
+    public String getName()
     {
-        return null;
+        return name;
     }
     
-    public static int getStock()
+    public int getStock()
     {
-        return 0;
+        return stock;
     }
     
-    public static int getPrice()
+    public int getPrice()
     {
-        return 0;
+        return price;
     }
     
-    public static String getCategory()
+    public String getCategory()
     {
-        return null;
+        return category;
     }
     
-    public static void setId(int id)
+    public Supplier getSupplier()
     {
-        
+        return supplier;
     }
     
-    public static void setName(String name)
+    public void setId(int id)
     {
-        
+        this.id=id;
     }
     
-    public static void setStock(int stock)
+    public void setName(String name)
     {
-        
+        this.name=name;
     }
     
-    public static void setPrice(int price)
+    public void setStock(int stock)
     {
-        
+        this.stock=stock;
     }
     
-    public static void setCategory(int category)
+    public void setPrice(int price)
+    {
+        this.price=price;
+    }
+    
+    public void setCategory(String category)
+    {
+        this.category=category;
+    }
+    
+    public void setSupplier(Supplier supplier)
+    {
+        this.supplier=supplier;
+    }
+    
+    public void printData()
     {
         
     }

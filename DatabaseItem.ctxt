@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DatabaseItem
+comment1.params=Item
+comment1.target=boolean\ addItem(Item)
+comment2.params=item
+comment2.target=boolean\ removeItem(Item)
+comment3.params=
+comment3.target=boolean\ getItemDatabase()
+numComments=4

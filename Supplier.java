@@ -4,60 +4,55 @@ public class Supplier
     private String name;
     private String email;
     private String phoneNumber;
-    private String city;
+    private Location location;
 
-    public static void Supplier()
+    public Supplier(int id, String name, String email, String phoneNumber, Location location)
     {
-        
+        //constructor
+        this.id=id;
+        this.name=name;
+        this.email=email;
+        this.phoneNumber=phoneNumber;
+        this.location=location;
     }
     
-    public static int getId()
+    public int getId()
     {
-        return 0;
+        return this.id;
     }
     
-    public static String getName()
+    public String getName()
     {
-        return null;
+        return this.name;
     }
     
-    public static String getEmail()
+    public String getEmail()
     {
-        return null;
+        return this.email;
     }
     
-    public static String getPhoneNumber()
+    public String getPhoneNumber()
     {
-        return null;
+        return this.phoneNumber;
+    }
+   
+    public void setId(int id)
+    {
+        this.id=id;
     }
     
-    public static String getCity()
+    public void setName(String name)
     {
-        return null;
+        this.name=name;
     }
     
-    public static void setId(int id)
+    public void setEmail(String email)
     {
-        
+        this.email=email;
     }
     
-    public static void setName(String name)
+    public void setPhoneNumber(String phoneNumber)
     {
-        
-    }
-    
-    public static void setEmail(String email)
-    {
-        
-    }
-    
-    public static void setPhoneNumber(String phoneNumber)
-    {
-        
-    }
-    
-    public static void setCity(String city)
-    {
-        
+        this.phoneNumber=phoneNumber;
     }
 }

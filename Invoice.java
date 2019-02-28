@@ -1,51 +1,60 @@
 public class Invoice
 {
     private int id;
-    private int idItem;
+    private Item item;
     private String date;
     private int totalPrice;
 
-    public static void Invoice()
+    public Invoice(int id, Item item, String date, int totalPrice)
     {
-        
+        //constructor
+        this.id=id;
+        this.item=item;
+        this.date=date;
+        this.totalPrice=totalPrice;
     }
     
-    public static int getId()
+    public int getId()
     {
-        return 0;
+        return this.id;
     }
    
-    public static String getIdItem()
+    public Item getItem()
     {
-        return null;
+        return this.item;
     }
     
-    public static String getDate()
+    public String getDate()
     {
-        return null;
+        return this.date;
     }
     
-    public static int getTotalPrice()
+    public int getTotalPrice()
     {
-        return 0;
+        return this.totalPrice;
     }
     
-    public static void setId(int id)
+    public void setId(int id)
     {
-        
+        this.id=id;
     }
     
-    public static void setIdItem(int idItem)
+    public void setItem(int Item)
     {
-        
+        this.item=item;
     }
     
-    public static void setDate(String date)
+    public void setDate(String date)
     {
-        
+        this.date=date;
     }
     
-    public static void setTotalPrice(int totalPrice)
+    public void setTotalPrice(int totalPrice)
+    {
+        this.totalPrice=totalPrice;
+    }
+    
+    public void printData()
     {
         
     }
