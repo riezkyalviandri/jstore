@@ -1,9 +1,16 @@
 #BlueJ class context
 comment0.target=DatabaseItem
-comment1.params=Item
+comment0.text=\r\n\ Kelas\ ini\ berfungsi\ untuk\ menambahkan\ dan\ mengurangi\ barang\r\n\ yang\ ada\ pada\ kelas\ Item.\r\n\r\n\ @author\ (Riezky\ Alviandri\ Ramadhan)\r\n\ @version\ (2019-02-28)\r\n
+comment1.params=item
 comment1.target=boolean\ addItem(Item)
+comment1.text=\r\n\ Method\ untuk\ menambahkan\ barang\ ke\ dalam\ database\r\n\ \r\n\ @param\ item\ \ Barang\ yang\ akan\ masuk\ ke\ database\r\n\ @return\ Status\ barang\ yang\ masuk\r\n\ \r\n
 comment2.params=item
 comment2.target=boolean\ removeItem(Item)
+comment2.text=\r\n\ Method\ untuk\ menghilangkan\ barang\ dari\ dalam\ database\r\n\ \r\n\ @param\ item\ \ Barang\ yang\ akan\ dihilangkan\ dari\ database\r\n\ @return\ Status\ barang\ yang\ dihapus\r\n\ \r\n
 comment3.params=
-comment3.target=boolean\ getItemDatabase()
-numComments=4
+comment3.target=Item\ getItem()
+comment3.text=\r\n\ Method\ untuk\ mendapatkan\ item\ dari\ kelas\ Item\r\n\ \r\n\ @return\ Barang\ yang\ ada\ di\ kelas\ Supplier\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String[]\ getItemDatabase()
+comment4.text=\r\n\ Method\ untuk\ mendapatkan\ database\ barang\r\n\ \r\n\ @return\ List\ barang\ yang\ ada\ di\ database\r\n\ \r\n
+numComments=5

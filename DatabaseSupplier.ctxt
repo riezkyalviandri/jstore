@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=DatabaseSupplier
+comment0.text=\r\n\ Kelas\ ini\ berfungsi\ untuk\ menambahkan\ dan\ mgengurangi\ daftar\r\n\ supplier\ yang\ ada\ pada\ kelas\ Supplier.\r\n\r\n\ @author\ (Riezky\ Alviandri\ Ramadhan)\r\n\ @version\ (2019-02-28)\r\n
 comment1.params=supplier
 comment1.target=boolean\ addSupplier(Supplier)
+comment1.text=\r\n\ Method\ untuk\ menambahkan\ supplier\ ke\ dalam\ database\r\n\ \r\n\ @param\ item\ \ Supplier\ yang\ akan\ masuk\ ke\ database\r\n\ @return\ Status\ supplier\ yang\ masuk\r\n\ \r\n
 comment2.params=supplier
 comment2.target=boolean\ removeSupplier(Supplier)
+comment2.text=\r\n\ Method\ untuk\ menghilangkan\ supplier\ dari\ dalam\ database\r\n\ \r\n\ @param\ item\ \ Supplier\ yang\ akan\ dihilangkan\ dari\ database\r\n\ @return\ Status\ Supplier\ yang\ dihapus\r\n\ \r\n
 comment3.params=
 comment3.target=Supplier\ getSupplier()
+comment3.text=\r\n\ Method\ untuk\ mendapatkan\ supplier\ dari\ kelas\ Supplier\r\n\ \r\n\ @return\ Supplier\ yang\ ada\ di\ kelas\ Supplier\r\n\ \r\n
 comment4.params=
 comment4.target=java.lang.String[]\ getListSupplier()
+comment4.text=\r\n\ Method\ untuk\ mendapatkan\ database\ supplier\r\n\ \r\n\ @return\ List\ Supplier\ yang\ ada\ di\ database\r\n\ \r\n
 numComments=5
